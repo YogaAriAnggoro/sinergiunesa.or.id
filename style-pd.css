@@ -1,0 +1,171 @@
+        .text-primary {
+            color: #7a3081 !important;
+        }
+        .text-secondary{
+            color: #ff971e !important;
+        }
+        @font-face{
+          font-family: Roboto;
+          src: url(fonts/Roboto-Regular.ttf);
+        }
+        .body{
+          font-family: 'Roboto', sans-serif;
+        }
+    
+        /* Navbar */
+        .navbar {
+            position: relative;
+            z-index: 1;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: #7a3081;
+        }
+        .navbar-brand {
+            font-size: 32px;
+        }
+        .nav-link {
+            text-transform:uppercase;
+            margin-right: 20px;
+            color: #ffffff !important;
+        }
+        .nav-bot{
+            background-color: #404040;
+            margin-top: -40px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        /* Jumbotron */
+        .jumbotron {
+            background-image: url(img/pendaftaran-head.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            display: flex;
+            align-items: center;
+        }
+        
+        .jumbotron .display-4 {
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .jumbotron .container {
+            position: relative;
+            z-index: 1;
+            color: #ffffff;
+            margin-top: -30px
+        }
+
+        /* Button */
+        .tombol {
+            background-color: #ff971e;
+            text-transform: uppercase;
+            border-radius: 20px;
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .tombol:hover {
+            color: #fff;
+        }
+
+        .section-title {
+            margin-top:20px;
+            margin-bottom:40px;
+            text-align: center;
+          }
+          .section-title span{
+            border-bottom: 4px solid #f0912b;
+            padding-bottom: 5px;
+          }
+
+        .association-img {
+            margin-top: 25px;
+        }
+
+        /* Footer */
+
+        .footer-body {
+          margin-top: 40px;
+          background-color: #482373;
+          padding: 48px 0;
+          color: #fff;
+        }
+
+        .footer-brand {
+          width: 79px;
+          height: 82px;
+        }
+        .menu a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .menu a:hover {
+          color: #f0912b;
+        }
+
+        ul{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        .alamat{
+          padding-top: 40px;
+          line-height: 1;
+        }
+
+        .alamat h6,p{
+          font-size: 14px;
+        }
+
+        .footer-bottom {
+          background-color: #37195a;
+          color: #fff;
+        }
+
+      /* DESKTOP VERSION */
+      @media (min-width: 992px) {
+
+        .navbar-brand {
+          color: white !important;
+        }
+        .nav-top .nav-link:hover::after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #f0912b;
+            width: 100%;
+            margin: auto;
+            padding-bottom: 5px;
+            margin-bottom: -8px;
+        }
+        .jumbotron {
+          margin-top: -85px;
+          height: 600px;
+        }
+      }
+
+      /* MOBILE VERSION */
+      @media (max-width: 991px) {
+
+      }
+      @media (max-width: 400px){
+        .hnews{
+            min-height: 260px;
+        }
+        .hnews img{
+            object-fit: cover;
+            min-height: inherit;
+        }
+      }
+
+
+      @media (max-width: 575){
+        .jumbotron .container{
+          margin-top: -30px;
+        }
+      }

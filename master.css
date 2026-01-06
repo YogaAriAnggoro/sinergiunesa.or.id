@@ -1,0 +1,34 @@
+.text-primary {
+    color: #7a3081 !important;
+  }
+  .text-secondary{
+    color: #ff971e !important;
+  }
+  @font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+  }
+  .body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-body {
+  width: 100%;
+  background-color: #007bff; /* Mengubah warna menjadi biru */
+  color: white;
+  padding: 25px 0;
+}
+
+.footer-bottom {
+  width: 100%;
+  background-color: #1414b8;
+  color: white;
+  padding: 2px 0;
+}
+
