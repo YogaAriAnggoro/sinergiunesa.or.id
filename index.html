@@ -57,8 +57,12 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Sinergiunesa. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Sinergiunesa. All rights reserved.</p>
         </div>
     </footer>
+    
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
