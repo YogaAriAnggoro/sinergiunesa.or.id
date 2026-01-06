@@ -1,0 +1,79 @@
+/* Navbar */
+.navbar {
+    background-color: #ff971e;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;  
+}
+
+/* Content */
+.JP {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #ff971e;
+}
+
+.e-learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.e-learning .container {
+    max-width: 1200px; /* Adjust as needed */
+}
+
+.e-learning .section-title {
+    margin-bottom: 40px;
+}
+
+.e-learning .el-item {
+    text-align: center;
+}
+
+.e-learning .profile-img {
+    width: 120px; /* Adjust as needed */
+    height: 120px; /* Adjust as needed */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+.e-learning .el-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.e-learning .judul-text {
+    font-size: 1.25rem; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space below name */
+}
+
+.e-learning .materi, .e-learning .tgl-up, .e-learning .nama-dosen {
+    margin: 5px 0; /* Adjust spacing between text items */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+}
+
+.el-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.el-content {
+    text-align: center;
+}
